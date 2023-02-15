@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-const Header=()=>{
+const Header = () => {
     return (
         <div className="headcontainer">
             <h1 className="mainhead1">Contact Manager</h1>
@@ -10,3 +10,5 @@ const Header=()=>{
 }
 
 export default Header;
+
+// new changes
