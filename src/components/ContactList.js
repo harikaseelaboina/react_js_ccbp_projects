@@ -11,22 +11,25 @@ import ContactCard from "./ContactCard";
 //     }
 // }
 
-const ContactList=(props)=>{
-    const {contacts}=props
+const ContactList = (props) => {
+    const { contacts } = props
 
-    const displayContactList=props.contacts.map((i)=>{
-        return(
-            <ContactCard contact={i}/>
+    const displayContactList = props.contacts.map((i) => {
+        return (
+            <ContactCard contact={i} />
         )
     })
-    
-return (
-    <div className="container3">
-        <h2 className="head3">Contact List</h2>
-        {displayContactList}
-    </div>
 
-)
+    return (
+        <div className="container3">
+            <h2 className="head3">Contact List</h2>
+            {displayContactList}
+        </div>
+
+    )
 }
 
 export default ContactList;
+
+
+// These are the new changes from the new_branch
