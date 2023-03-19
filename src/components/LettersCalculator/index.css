@@ -1,0 +1,6 @@
+/* Write your code here. */
+.maindiv {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  background-size: cover;
+}
